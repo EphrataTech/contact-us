@@ -24,13 +24,13 @@
 # Usage
 
 1. Clone or download this repository.
-2. Open `contact.html` in your browser.
+2. Open `index.html` in your browser.
 3. Fill out the form and submit.
 
 #  Customization
 
 - To change the design, edit `style.css`.
-- To add more form fields or validation logic, modify `contact.html` and `script.js`.
+- To add more form fields or validation logic, modify `index.html` and `script.js`.
  
 
 
