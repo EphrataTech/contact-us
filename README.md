@@ -27,6 +27,13 @@
 2. Open `contact.html` in your browser.
 3. Fill out the form and submit.
 
+# How to solve the conflict that occured
+- We encountered a merge conflict because changes were made to the same line of code on different branches. The conflict occurred when we tried to merge - the pull request by clicking the "Merge pull request" button.
+
+- To resolve the conflict, we clicked on the "Resolve conflict" button, which took us to a page showing the exact lines that were in conflict. There, we reviewed both versions of the conflicting code, chose the version we preferred, and removed the other.
+
+- After finalizing the changes, we clicked "Mark as resolved" to confirm that the conflict had been handled. Since there were no remaining conflicts with the base branch, we were then able to successfully merge the pull request.
+
 #  Customization
 
 - To change the design, edit `style.css`.
