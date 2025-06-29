@@ -24,7 +24,7 @@
 # Usage
 
 1. Clone or download this repository.
-2. Open `contact.html` in your browser.
+2. Open contact.html in your browser.
 3. Fill out the form and submit.
 
 # How to solve the conflict that occured
