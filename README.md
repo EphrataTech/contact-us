@@ -1,4 +1,4 @@
-# Contributor's names-Ephrata Yohannes , Ntoiti Fidelis
+# Contributor's names-Ephrata Yohannes , Ntoiti Fidelis .
 
 # Project Overview
 - This project is a Contact Form Web Page designed to collect user input through a simple and user-friendly interface. It consists of three main files:
@@ -8,7 +8,7 @@
 - The form allows users to input their name, email, subject, and message.  It includes client-side validations and a clean responsive design.
 
 
-# Features
+# Features 
 
 - Responsive design using CSS
 - Custom styling for input fields and buttons
