@@ -173,12 +173,13 @@ button:hover::before {
   animation: spin 1s ease-in-out infinite;
   margin-right: 10px;
 }
+
 @keyframes fadeInDown {
   from {
     opacity: 0;
-    transform: translateY(-30px);f
+    transform: translateY(-30px);
   }
-  to {
+to {
     opacity: 1;
     transform: translateY(0);
   }
@@ -210,4 +211,76 @@ button:hover::before {
   to {
     transform: rotate(360deg);
   }
+}
+.form-group.error input,
+.form-group.error textarea {
+  border-color: #dc3545;
+  background-color: #fff5f5;
+}
+
+.form-group.success input,
+.form-group.success textarea {
+  border-color: #28a745;
+  background-color: #f8fff8;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  display: block;
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 1.5rem;
+    margin: 1rem auto;
+  }
+
+  main p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.75rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0.75rem;
+  }
+
+  button {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* Focus indicators for accessibility */
+button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
 }
